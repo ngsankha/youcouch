@@ -1,0 +1,115 @@
+* { padding: 0; margin: 0; }
+img { border: 0; }
+body {
+	font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
+	}
+#wrapper {
+	width: 467px;
+	margin: 29px auto;
+	}
+#logo {
+	height: 397px;
+	text-indent: -10000px;
+	margin-bottom: -135px;
+	}
+#logo.blank {
+	text-indent: 0;
+	}
+#yc-logo{
+	padding-top:90px;
+}
+h1 {
+	padding-top: 10px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	}
+h2 {
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center;
+	}
+#when, .textwidget {
+	font-size: 18px;
+	text-align: center;
+	}
+#form {
+	width: 410px;
+	margin: 25px auto 15px auto;
+	}
+form {
+	background: url(images/form.png) no-repeat;
+	height: 47px;
+	}
+input {
+	background: none;
+	border: none;
+	outline: 0;
+}
+input.text {
+	width: 268px;
+	padding: 13px 0 13px 24px;
+	color: #505050;
+	font-size: 16px;
+	float: left;
+	}
+input.submit {
+	width: 104px;
+	padding: 13px 0 13px 10px;
+	float: right;
+	cursor: pointer;
+	}
+#buttons {
+	clear: both;
+	text-align: center;
+	}
+#fb {
+	padding-right: 10px;
+	}
+#fb img {
+	width: 32px;
+	height: 32px;
+	}
+#twitter img {
+	width: 34px;
+	height: 32px;
+	}
+#credit img {
+	width: 32px;
+	height: 30px;
+	}
+#credit {
+	padding-top: 150px;
+	color:#fff;
+	text-align: center;
+	}
+	
+a{
+	color:#ccc;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.sh:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+
+/* The following are not used */
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
